@@ -1,4 +1,4 @@
-# Reaction-order-
+# Reaction-order
 # Analyzing Diamonds in the Biosynthetic Network to Show Preferred Reaction Order
 
 This repository contains code and data for analyzing **diamond-shaped motifs** within biosynthetic networks derived from glycans, using all available glycomics datasets within **glycowork**.
