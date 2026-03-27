@@ -27,7 +27,7 @@ An illustration of a diamond motif example is shown below:
 ### Reaction Order Preference Analysis
 - The `collect_reaction_preferences_data` function was implemented to assess preferred reaction paths by:
   - Collecting abundance differences for the two reaction orders.
-  - Performing pairwise Welch’s t-tests to evaluate statistical significance.
+  - Performing pairwise Welch’s t-tests + Benjamini-Hochberg multiple testing correction to evaluate statistical significance.
 
 ### Visualization and Interpretation
 - Data are summarized in tables and visualized through boxplots, highlighting:
@@ -44,7 +44,7 @@ Reaction order preferences were analyzed for different glycan classes:
 - **N-glycans**
 - **O-glycans**
 - **Glycosphingolipids (GSLs)**
-- **Monosaccharide Oligomers (MOs)**
+- **Milk oligosaccharides (MOs)**
 
 ### Physiological Condition Comparison
 Reaction preferences were compared between:
